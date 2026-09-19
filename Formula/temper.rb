@@ -1,25 +1,25 @@
 class Temper < Formula
   desc "Never leave your terminal to find a domain"
   homepage "https://github.com/jongjinchoi/temper-domains"
-  version "0.3.4"
+  version "0.4.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/jongjinchoi/temper-domains/releases/download/v0.3.4/temper-bun-darwin-arm64.tar.gz"
-      sha256 "063b4f555d95538b88ce3df92452f74fb781de5c6e2c12887064c45f0aaa582a"
+      url "https://github.com/jongjinchoi/temper-domains/releases/download/v0.4.0/temper-bun-darwin-arm64.tar.gz"
+      sha256 "49af2e0c1db3ca60844a9f30508ed8fdca61cf4fccb6e10ddd7bd59311d3e6fe"
     else
-      url "https://github.com/jongjinchoi/temper-domains/releases/download/v0.3.4/temper-bun-darwin-x64.tar.gz"
-      sha256 "ea3121aaf620cdbb970a2db1db0a695a2b5121ef00a44d5e19f7f6940fc6f404"
+      url "https://github.com/jongjinchoi/temper-domains/releases/download/v0.4.0/temper-bun-darwin-x64.tar.gz"
+      sha256 "e8b50d7db723ff010fef50f93d50dffcf40d43bad6e2794b827a2471f8afff1e"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/jongjinchoi/temper-domains/releases/download/v0.3.4/temper-bun-linux-arm64.tar.gz"
-      sha256 "fd2a5c60535ab1aba4e569060fe9690262385b8356bd5d90e1c8bfcaa400efa7"
+      url "https://github.com/jongjinchoi/temper-domains/releases/download/v0.4.0/temper-bun-linux-arm64.tar.gz"
+      sha256 "5121c49640c29f6f6ccf2644d6851fcbe24a50c6a3360751645bc7f1f13f7932"
     else
-      url "https://github.com/jongjinchoi/temper-domains/releases/download/v0.3.4/temper-bun-linux-x64.tar.gz"
-      sha256 "cf94013bdafc0f364f39ca81f00fb496a03fa0e24bfa81edd5d98a4b00644765"
+      url "https://github.com/jongjinchoi/temper-domains/releases/download/v0.4.0/temper-bun-linux-x64.tar.gz"
+      sha256 "1db9ea3be63da2ea84e60ad7efc68c5b74c1573316327a15062d4ef2eb4e71f2"
     end
   end
 
